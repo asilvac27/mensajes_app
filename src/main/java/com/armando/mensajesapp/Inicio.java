@@ -38,7 +38,7 @@ public class Inicio {
                 case 2:
                     for (Mensaje msg : MensajesService.listarMensajes()) {
                         System.out.println("IdMensaje " + msg.getIdMensaje() + "\nMensaje: " + msg.getMensaje() +
-                                "\nAutor: " + msg.getAutorMensaje() + "\nFecha " + msg.getFechaMensaje());
+                                "\nAutor: " + msg.getAutorMensaje() + "\nFecha " + msg.getFechaMensaje() + " sadasd");
                     }
                     break;
                 case 3:
